@@ -1,0 +1,87 @@
+body {
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;  
+}
+
+#image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-size: contain; 
+    padding: 20vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#text{
+    height: 100vh;
+    padding: 15vw;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 104px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 18px;
+    color: darkgray;
+}
+
+
+p {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+.menu1 ul{
+    list-style: none; 
+    color: gray; 
+    margin-top: 200px;
+    margin-left: 185px;
+}
+
+.menu1 li{
+    padding-top: 20px;
+}
+
+.link{
+text-decoration: none;
+color: gray;
+}
+
+.link:hover{
+color: palevioletred;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.none{
+    text-decoration: none;
+    color: gray;
+}
+
+.none:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.menu2 ul{
+    height: 100vh;
+    background-color: black;
+    list-style: none;    
+    font-size: 50px;
+    font-weight: 100;
+    padding: 15vw;
+    color: white; 
+    margin-top: 500px;
+}
+
+.menu2 li{
+    padding: 10px;
+}
