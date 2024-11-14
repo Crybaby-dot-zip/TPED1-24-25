@@ -16,6 +16,11 @@ section {
     background-color: rgb(218, 218, 218);
 }
 
+#flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     width: 33%;
     height: auto;
