@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fondo claro */
+    background-color: #f4f4f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,15 +11,15 @@ body {
 
 .menu {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    gap: 20px; /* Separación entre cajas */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .menu ul {
     display: flex;
-    gap: 20px; /* Espaciado entre elementos */
-    list-style: none; /* Eliminar puntos de la lista */
+    gap: 20px;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
