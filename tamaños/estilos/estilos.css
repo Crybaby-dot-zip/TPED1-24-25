@@ -1,0 +1,111 @@
+main > * {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 5rem;
+    text-align: center;
+    background-color: rgb(255, 0, 204);
+    color: white;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+main {
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgb(149, 149, 149);
+    height: 3rem;
+}
+
+/* móvil muy pequeño */
+
+nav {
+    background-color: aqua;
+    width: 100vw; 
+}
+
+nav li {
+    display: inline-block; 
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+    width: 100vw; 
+}
+
+sidebar {
+    background-color: greenyellow;
+    display: none; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lo que ponga antes lo cogerán los dispositivos más pequeños de 576px (p.ej. iPhone 5) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    nav {
+        background-color: aqua;
+        width: 100vw; 
+    }
+
+    section {
+        background-color: rgb(255, 255, 255);
+        width: 100vw; 
+    }
+    
+    sidebar {
+        background-color: greenyellow;
+        display: block;
+        width: 100vw; 
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    nav {
+        background-color: aqua;
+        width: 20vw; 
+    }
+    
+    nav li {
+        display: block;
+    }
+
+    section {
+        background-color: rgb(255, 255, 255);
+        width: 60vw; 
+    }
+    
+    sidebar {
+        background-color: greenyellow;
+        width: 20vw; 
+    }    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
