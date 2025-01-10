@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1.2;
+    font-weight: 100;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    color: darkgray;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.menu1 ul,
+.menu2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu1 li,
+.menu2 li {
+    padding: 10px 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: gray;
+}
+
+.menu-link:hover {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+#menus {
+    background-color: black;
+    color: white;
+}
+
+.menu-container ul {
+    padding: 15px;
+}
