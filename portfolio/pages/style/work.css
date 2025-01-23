@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 70px;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff69b4;
+}
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.section {
+    padding: 50px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 45%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.carousel-container {
+    flex: 1;
+    max-width: 45%;
+}
+
+.carousel img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container, .carousel-container {
+        max-width: 100%;
+    }
+}
+
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 8%;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.social-media {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    flex: 1;
+}
+
+.copyright hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info, .social-media, .copyright {
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 20px 5%;
+    }
+
+    .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
